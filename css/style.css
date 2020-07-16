@@ -1,0 +1,306 @@
+@charset "UTF-8";
+body {
+  font-family: "Lato", "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, sans-serif;
+  font-size: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+section,
+header,
+footer {
+  width: 100%;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+header h1 a {
+  font: normal 28px/10px "Helvetica Neue";
+  color: #029ae2;
+  float: left;
+  margin: 30px;
+}
+
+header span.logo_last {
+  color: #30d0ed;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li.nav_items {
+  font: normal 16px/26px "ヒラギノ角ゴ Pro";
+  line-height: 0.005em;
+  padding: 34px 45px 0 0;
+}
+
+header nav ul .contact_items {
+  font: normal 16px/26px "ヒラギノ角ゴ Pro";
+  line-height: 0.005em;
+  width: 200px;
+  height: 80px;
+  background-color: #30d0ed;
+  padding: 34px;
+  margin-left: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.top_container {
+  width: 100%;
+  height: 670px;
+  position: relative;
+  background-image: url(../img/top.jpg);
+}
+
+.top_container p {
+  color: #fefefe;
+  text-align: center;
+}
+
+.top_container p.top_center {
+  font: normal 140px/115px "Cormorant Garamond";
+  letter-spacing: 0.025em;
+  padding-top: 170px;
+}
+
+.top_container p.top_center_detail {
+  font: normal 25px/36px "ヒラギノ角ゴ ProN";
+  letter-spacing: 0.1em;
+  padding-top: 40px;
+}
+
+.news_container {
+  width: 100%;
+  height: 235px;
+  background-color: #edfcff;
+  display: flex;
+}
+
+.news_container .news_title_wrapper {
+  width: auto;
+}
+
+.news_container .news_title_wrapper h2 {
+  color: #019bdf;
+  font: normal bold 40px/40px "Open Sans";
+  line-height: 0.0025em;
+  padding: 57px 35px 0 200px;
+}
+
+.news_container .news_title_wrapper .news_title_detail {
+  color: #333333;
+  font: normal 12px/24px "ヒラギノ角ゴ Pro";
+  line-height: 0.0075em;
+  display: block;
+  padding: 37px 35px 0 200px;
+}
+
+.news_container .news_title_wrapper .news_title_detail::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-left: 1rem;
+}
+
+.news_container .news_wrapper {
+  width: auto;
+  font-size: 13px;
+  padding-top: 27px;
+}
+
+.news_container .news_wrapper .news_contents {
+  margin: 10px;
+  width: 1050px;
+  display: flex;
+  border-bottom: 1px solid #30d0ed;
+}
+
+.news_container .news_wrapper .news_contents time,
+.news_container .news_wrapper .news_contents p {
+  padding: 10px 0;
+}
+
+.news_container .news_wrapper .news_contents .news_tag {
+  width: 80px;
+  height: 18px;
+  background-color: #019bdf;
+  margin: 10px 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.service_container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: #fff;
+}
+
+.service_container .service_title_wrpper {
+  text-align: center;
+  margin: 80px 0 15px;
+}
+
+.service_container .service_title_wrpper h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #019bdf;
+  letter-spacing: 0.0025em;
+  line-height: 40px/25px;
+  font-family: "Open Sans";
+}
+
+.service_container .service_title_wrpper h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #149fe0;
+  letter-spacing: 0.0024em;
+  line-height: 14px/75px;
+  font-family: "ヒラギノ角ゴ Pro";
+}
+
+.service_container .service_box_wrapper {
+  margin: 0 200px;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.service_container .service_box_wrapper .service_two {
+  margin: 0 70px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}
+
+footer p.copyright {
+  text-align: center;
+}
